@@ -9,14 +9,14 @@ const Index = () => {
     <Routes>
       <Route element={<SharedLayout />}>
         <Route element={<RequiresAuth />}>
-          <Route path="/" element={<Homepage />} index /> {/* Corrected index route */}
+          <Route path="/" element={<Homepage />} index />
           {authContents.map((route, idx) => (
             <Route key={idx} path={route.path} element={route.element} />
-          ))}
+          ))};
         </Route>
         {authRoutes.map((route, idx) => (
           <Route key={idx} path={route.path} element={route.element} />
-        ))}
+        ))};
       </Route>
     </Routes>
   );

@@ -6,7 +6,7 @@ export const authRoutes = [
 ]
 
 export const authContents = [
-    { path : "/add-gig", element : <AddGig />},
+    { path : "/add-job", element : <AddGig />},
     { path : "/edit-gig/:id", element : <AddGig />},
     {path : '/my-profile', element : <Profile />}
 ];

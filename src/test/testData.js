@@ -8,4 +8,20 @@ export const category = [
     {id : 7, title : "Current Affairs"},
     {id : 8, title : "Job"},
     {id : 9, title : "Bussiness Development"},
-]
+];
+
+export const bannerImg = [
+    {id : 1, path : "https://img.freepik.com/free-psd/banner-template-career-advisers_23-2148315240.jpg"}
+];
+
+export const jobType = [
+    {name : "Full-time", label : "fullTime", value : "fullTime"},
+    {name : "Part-time", label : "partTime", value : "partTime"},
+    {name : "Contractual", label : "contractual", value : "contractual"},
+];
+
+export const salaryRange = [
+    {name : "Full-time", label : "fullTime", value : "fullTime"},
+    {name : "Part-time", label : "partTime", value : "partTime"},
+    {name : "Contractual", label : "contractual", value : "contractual"},
+];

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { GigCard } from '../../components';
+import { Banner, GigCard } from '../../components';
 import { useGigContext } from '../../context';
 
 const Homepage = () => {
@@ -23,6 +23,8 @@ const Homepage = () => {
 
   return (
     <div className="container-fluid">
+      <h1>hello</h1>
+      <Banner />
       <div className="container-sm">
         {gigInfo?.length > 0 ? <h3>Latest Posts</h3> : null}
         <div className="row py-4">
